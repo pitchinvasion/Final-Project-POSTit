@@ -9,7 +9,7 @@ Flicky Notes is a meeting app which allows you to write your own notes on a mobi
 
 ###How to use
 
-Visit the website [here](http://flickynotes.meteor.com/) on your computer AND your smartphone.
+Visit the website [http://flickynotes.meteor.com](http://flickynotes.meteor.com) on your computer AND your smartphone.
 Follow the onscreen instructions to use the app.
 
 ###Achievements
