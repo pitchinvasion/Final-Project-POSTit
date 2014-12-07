@@ -7,6 +7,11 @@ Flicky Notes is a meeting app which allows you to write your own notes on a mobi
 
 >>>>>>>>> ENTER VIDEO HERE
 
+###How to use
+
+Visit the website [here](http://flickynotes.meteor.com/) on your computer AND your smartphone.
+Follow the onscreen instructions to use the app.
+
 ###Achievements
 
 One of the biggest challenges we've faced is learning a new framework, Meteor, which works with a non-SQL database called MongoDB. It was a really nice experience to be able to share all of our ideas and create such a powerful application in just 2 weeks.
