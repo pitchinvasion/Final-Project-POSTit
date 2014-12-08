@@ -5,7 +5,7 @@
 For our final project at [Makers Academy](http://www.makersacademy.com/) we choose to follow the idea of Bernard, Flicky Notes.
 Flicky Notes is a meeting app which allows you to write your own notes on a mobile device and then, with a simple swipe movement, send it to the board on your desktop.
 
->>>>>>>>> ENTER VIDEO HERE
+[WATCH OUR VIDEO](https://www.youtube.com/watch?v=qpGh8sWWuV0&feature=youtu.be) on Flicky Notes. 
 
 ###How to use
 
