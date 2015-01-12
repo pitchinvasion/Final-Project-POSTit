@@ -1,21 +1,10 @@
-// Meteor.subscribe('Postits', 'Zones', 'Boards');
-
 Router.route('/', function () {
-  this.render('home')
+  this.render('home'); // SEMI COLONS! - Don't forget to run through jslint // run through code climate
 })
 
 Router.route('/board', function () {
-	var board = _.first(Boards.find().fetch()) 
-	var zones = []
-    if(board !== undefined){
-      _.each(board.zones, function(zoneId){
-        var zone = _.first(Zones.find(zoneId).fetch())
-        var PostitsForZone = Postits.getByZone(zoneId);
-        zonePostits = new Object({zone: zone, postits: PostitsForZone});
-        zones.push(zonePostits);
-      })
-    }
-	this.render('board', {data: {board: board, zones: zones}})
+    board = ClientBoard.setup();
+    this.render('board', {data: {board: board, zones: board.zones}})
 })
 
 Router.route('/phone', function () {
